@@ -42,14 +42,19 @@ npm install
 gulp
 ```
 
-7. When revisiting the project run gulp in terminal like in step 5.
+7. When revisiting the project run gulp in terminal like in step 6.
+
+## Try It Yourself
+- Try Browser Sync! (**my fav**) You can see the code refresh on your mobile device as you save changes! Use the "External" access URL in your phone's browser!
+
+- Also try the SASS compiling by typing in to the sass file, CSS also works, and see the browser refresh  and the CSS file update automatically. (No more Prepros!)
 
 ### NOTE!
 If there is an error in your code gulp will stop running! Check terminal for error, resolve it, and reload gulp.
 
 ### Problem Downloading
  If my download instructions don't work:
- 1. delete node_modules, package-lock, package.json.
+ 1. Delete node_modules, package-lock, package.json.
 
  2. Follow [Getting Started with Gulp](https://travismaynard.com/writing/getting-started-with-gulp) for a step by step guide. Use the "dependencies download" listed below once you get to step 5 in the article.
 
