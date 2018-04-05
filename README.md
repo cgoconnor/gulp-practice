@@ -38,6 +38,9 @@ gulp
 
 6. When revisiting the project run gulp in terminal like in step 5.
 
+### NOTE!
+If there is an error in your code gulp will stop running! Check terminal for error, resolve it, and reload gulp.
+
 ## Sites Referenced
 [Stack Overflow -Browser Sync on phone](https://stackoverflow.com/questions/34739846/browser-sync-in-mobile-while-local-development)
 
@@ -48,3 +51,5 @@ gulp
 [Getting Started with Gulp](https://travismaynard.com/writing/getting-started-with-gulp)
 
 [How to Prevernt Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions#how-to-prevent-permissions-errors)
+
+[Gulp tutorial](https://youtu.be/1rw9MfIleEg)
