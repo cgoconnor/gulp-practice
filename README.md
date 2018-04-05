@@ -67,14 +67,18 @@ npm install jshint gulp-jshint gulp-sass gulp-concat gulp-uglify gulp-rename bro
 ```
 
 ## Sites Referenced
-[Stack Overflow -Browser Sync on phone](https://stackoverflow.com/questions/34739846/browser-sync-in-mobile-while-local-development)
-
-[Browser Sync options - server and proxy](https://browsersync.io/docs/options/#option-proxy)
 
 [Browser Sync + Gulp Documentation](https://browsersync.io/docs/gulp)
 
+[Browser Sync options - server and proxy](https://browsersync.io/docs/options/#option-proxy)
+
+[Development Environment Setup for a Basic Site](https://beckyboyce.com/category/web-development/how-to/)
+
 [Getting Started with Gulp](https://travismaynard.com/writing/getting-started-with-gulp)
+
+[Gulp tutorial on YouTube](https://youtu.be/1rw9MfIleEg)
 
 [How to Prevernt Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions#how-to-prevent-permissions-errors)
 
-[Gulp tutorial](https://youtu.be/1rw9MfIleEg)
+[Stack Overflow -Browser Sync on phone](https://stackoverflow.com/questions/34739846/browser-sync-in-mobile-while-local-development)
+
