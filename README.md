@@ -23,6 +23,7 @@ npm install -g gulp
        ```
        sudo npm install -g gulp
        ```
+       (mac only)
 
        * or change permissions by reading up on [How to Prevernt Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions#how-to-prevent-permissions-errors)
 
@@ -31,15 +32,34 @@ npm install -g gulp
 gulp -v
 ```
 
-5. Run gulp in terminal
+5. Install dependencies
+```
+npm install
+```
+
+6. Run gulp in terminal
 ```
 gulp
 ```
 
-6. When revisiting the project run gulp in terminal like in step 5.
+7. When revisiting the project run gulp in terminal like in step 5.
 
 ### NOTE!
 If there is an error in your code gulp will stop running! Check terminal for error, resolve it, and reload gulp.
+
+### Problem Downloading
+ If my download instructions don't work:
+ 1. delete node_modules, package-lock, package.json.
+
+ 2. Follow [Getting Started with Gulp](https://travismaynard.com/writing/getting-started-with-gulp) for a step by step guide. Use the "dependencies download" listed below once you get to step 5 in the article.
+
+ 3. The gulpfile.js I created is what were trying to get terminal to read. Copy and paste my code when creating gulpfile.
+
+## Dependencies download
+```
+npm install jshint gulp-jshint gulp-sass gulp-concat gulp-uglify gulp-rename browser-sync --save-dev
+
+```
 
 ## Sites Referenced
 [Stack Overflow -Browser Sync on phone](https://stackoverflow.com/questions/34739846/browser-sync-in-mobile-while-local-development)
