@@ -4,7 +4,7 @@
 
 1. [Install Node](http://nodejs.org)
 
-2. Check if install went correctly by running
+2. Open terminal - check if install went correctly by running
 ```
 node -v
 ```
