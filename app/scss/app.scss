@@ -19,6 +19,11 @@ $purple: #a99bbf;
 @function lighter( $color ) 	{ @return lighten($color,33.333%); }
 @function lightest( $color ) 	{ @return lighten($color,50%); }
 
+// breakpoints
+//	medium: 1024px,
+//	smaller-screen: 800px,
+//	small: 640px,
+//	mobile: 360px
 
 *,
 *::before,
@@ -33,8 +38,62 @@ body {
   font-family: 'Lilita One', cursive;	background:
     	linear-gradient(
     	  to bottom right,
-    	  darkest($purple), dark($gold)
+    	  darkest($purple), darker($purple)
     	);
   background-repeat: no-repeat;
   height: 100vh;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(6,1fr);
+  grid-gap: .5rem;
+  font-variant: small-caps;
+}
+
+nav{
+  grid-area: n;
+}
+
+.sidebar {
+  grid-area: s;
+  background-color: $grey;
+}
+
+.content {
+  grid-area: c;
+  background-color: $silver;
+
+}
+
+footer {
+  grid-area: f;
+}
+
+.container {
+  grid-template-areas:
+    'n n n n n n'
+    's s c c c c'
+    's s c c c c'
+    's s c c c c'
+    's s c c c c'
+    'f f f f f f';
+
+    @media all and (max-width: 360px){
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template-areas:
+        'n'
+        's'
+        'c'
+        'c'
+        'c'
+        'c'
+        'c'
+        'f';
+    }
 }
