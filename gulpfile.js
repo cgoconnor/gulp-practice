@@ -32,7 +32,7 @@ gulp.task('scripts', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        proxy: "localhost:444"
+        server:"app"
     });
 
     gulp.watch("app/scss/*.scss", ['sass']);
