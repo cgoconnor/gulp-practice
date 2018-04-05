@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
+
+:root {
+	font-size: 14px;
+}
+
+$grey: #979797;
+$black: #0b120c;
+$silver: #d4dae0;
+$gold: #bd8332;
+$purple: #a99bbf;
+
+// 							shades and tints
+
+@function darkest( $color ) 	{ @return darken($color,20%); }
+@function darker( $color ) 		{ @return darken($color,13.333%); }
+@function dark( $color ) 		{ @return darken($color,6.667%); }
+@function light( $color ) 		{ @return lighten($color,16.667%); }
+@function lighter( $color ) 	{ @return lighten($color,33.333%); }
+@function lightest( $color ) 	{ @return lighten($color,50%); }
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lilita One', cursive;	background:
+    	linear-gradient(
+    	  to bottom right,
+    	  darkest($purple), dark($gold)
+    	);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
