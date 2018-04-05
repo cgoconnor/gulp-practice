@@ -83,7 +83,7 @@ footer {
     's s c c c c'
     'f f f f f f';
 
-    @media all and (max-width: 360px){
+    @media all and (max-width: 640px){
       grid-template-columns: auto;
       grid-template-rows: auto;
       grid-template-areas:
